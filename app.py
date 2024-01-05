@@ -20,7 +20,7 @@ def serverCheck():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    if request.method == 'POST':
+    if request.method == 'GET':
         raw_img = request.files['image']
         img = PIL.Image.open(raw_img)
         img = tf.keras.utils.img_to_array(img)
