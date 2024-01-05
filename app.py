@@ -40,7 +40,7 @@ def predict():
 
         modelRes = jsonify({"result":result})
         modelRes.headers['Content-Type']='application/json; charset=utf-8'
-        return modelRes
+        return modelRess
 
 if __name__ == '__main__':
     print("Your model server running successfully!")
