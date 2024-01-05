@@ -45,3 +45,7 @@ def predict():
 if __name__ == '__main__':
     print("Your model server running successfully!")
     serve(app, host='<yourhost>', port='<yourport>')
+
+#nextproject
+    
+    
